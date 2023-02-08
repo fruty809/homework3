@@ -16,8 +16,9 @@ public class Main {
             }
         }
         
-        //Доп
+        
         System.out.println("Общее арифметическое число = " + sum / num);
+        //доп
         for (int i = 0; i < number.length - 1; i++) {
             for (int j = 0; j < number.length - i - 1; j++) {
                 if (number[j] > number[j + 1]) {
